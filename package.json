@@ -1,0 +1,22 @@
+{
+  "name": "alvble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedcalmus/alvble.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedcalmus/alvble/issues"
+  },
+  "homepage": "https://github.com/fedcalmus/alvble#readme",
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  }
+}
