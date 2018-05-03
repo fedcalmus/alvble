@@ -1,0 +1,15 @@
+/* Header styles */
+
+header {
+  background-color: $primary-color;
+
+  nav ul li a {
+    font-family: "Gotham-Bold";
+    font-size: $font-md;
+    color: #ffffff;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+

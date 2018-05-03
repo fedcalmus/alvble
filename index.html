@@ -6,8 +6,45 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alvble</title>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/style/main.css">
+
 </head>
 <body>
+<!-- Header styles start here -->
+<header>
+    <div class="container clearAfter p-t-30 p-b-30 ">
+        <div class="headerLeft floatLeft">
+            <img src="assets/images/logo.png" alt="Logo">
+        </div>
+        <div class="headerRight floatRight">
+            <nav class="p-r-50 p-l-50">
+                <ul class="uppercase">
+                    <li class="inlineBlock p-r-30"><a href="#">Login</a></li>
+                    <li class="inlineBlock"><a href="#">Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- Header styles end here -->
+<section class="banner">
+        <div class="filters LightGreyBg">
+            <div class="container">
+            <input type="text" placeholder="Name,skill,keyword">
+            <input data-toggle="datepicker" class="">
+            <input data-toggle="datepicker" class="">
+            <button class="uppercase btnM btnWhite">Find talent</button>
+        </div>
+    </div>
+</section>
 
+<!-- Scripts start here -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/@fengyuanchen/datepicker/dist/datepicker.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Scripts end here -->
 </body>
 </html>

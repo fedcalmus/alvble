@@ -1,0 +1,37 @@
+/* Fonts */
+
+// Import Gotham Medium
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../../fonts/gotham-medium/Gotham-Medium.eot"),
+       url("../../fonts/gotham-medium/Gotham-Medium.woff") format("woff"),
+       url("../../fonts/gotham-medium/Gotham-Medium.ttf") format("truetype"),
+       url("../../fonts/gotham-medium/Gotham-Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+//Import Gotham Bold
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../../fonts/gotham-bold/Gotham-Bold.eot"),
+       url("../../fonts/gotham-bold/Gotham-Bold.woff") format("woff"),
+       url("../../fonts/gotham-bold/Gotham-Bold.ttf") format("truetype"),
+       url("../../fonts/gotham-bold/Gotham-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Import Gotham Book
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("../../fonts/gotham-book/Gotham-Book.eot"),
+       url("../../fonts/gotham-book/Gotham-Book.woff") format("woff"),
+       url("../../fonts/gotham-book/Gotham-Book.ttf") format("truetype"),
+       url("../../fonts/gotham-book/Gotham-Book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

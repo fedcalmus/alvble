@@ -1,0 +1,40 @@
+/* Content element styles */
+
+body {
+  font-size: $font-sm;
+  color: $primary-color;
+  background-color: #ffffff;
+  font-family: Gotham-Medium;
+}
+
+.clearAfter {
+  &::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+
+.container {
+  width: 80%;
+  padding: 0 33px;
+  margin: 0 auto;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+/* Backgrounds */
+
+.LightGreyBg {
+  background-color: $light-grey;
+}
+
+
+
+
