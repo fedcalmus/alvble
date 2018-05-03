@@ -349,7 +349,7 @@ table {
 /* Import global components */
 /* Buttons */
 .btnM {
-  padding: 35px 30px 28px 30px; }
+  padding: 35px 36px; }
 
 .btnWhite {
   background-color: #ffffff;
@@ -379,8 +379,12 @@ body {
   float: left; }
 
 /* Backgrounds */
-.LightGreyBg {
+.lightGreyBg {
   background-color: #77787a; }
+
+/* Colors */
+.colorBlue {
+  color: #3ba2d4; }
 
 /* Import specific components */
 /* Header styles */
