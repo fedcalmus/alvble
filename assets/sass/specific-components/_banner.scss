@@ -3,14 +3,15 @@
 
 .filters div {
   position: relative;
-}
 
-i {
-  position: absolute;
-  right: 20px;
-  font-size: 20px;
-  color: $light-grey;
-  @extend %centerY;
+  i {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    color: $light-grey;
+    @extend %centerY;
+  }
+
 }
 
 .filters button {

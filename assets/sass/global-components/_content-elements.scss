@@ -9,9 +9,9 @@ body {
 
 .clearAfter {
   &::after {
-    content: "";
+    content: " ";
     clear: both;
-    display: block;
+    display: table;
   }
 }
 
@@ -30,6 +30,10 @@ body {
 }
 
 /* Backgrounds */
+
+.greyBg {
+  background-color: $primary-color;
+}
 
 .lightGreyBg {
   background-color: $light-grey;

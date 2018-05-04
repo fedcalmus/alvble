@@ -11,6 +11,9 @@ footer {
 
   li {
     padding-bottom: 25px;
+    &:first-child {
+      font-family: Gotham-Bold;
+    }
   }
 
   a {
