@@ -4,14 +4,33 @@
   padding-top: 150px;
   padding-bottom: 235px;
 
+
   .gridContent .item {
     width: (100% / 4);
     padding-top: 5px;
     padding-right: 5px;
   }
+  
+  ul {
+    display: inherit;
+  }
+
+  ul li {
+    @include flex();
+    flex-direction: row;
+    padding-right: 5px;
+    align-items: center;
+  }
+
+  span {
+    font-size: $font-xxs;
+    padding-left: 5px;
+
+  }
 
   img {
     width: 100%;
   }
+
 }
 
