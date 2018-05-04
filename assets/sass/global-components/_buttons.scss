@@ -1,10 +1,36 @@
 /* Buttons */
 
-.btnM {
-  padding: 35px 36px;
+%placeholder {
+  &::placeholder {
+    color: $blue;
+    font-family: Gotham-Medium;
+  }
 }
 
-.btnWhite {
+%hover {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn{
+  line-height: 60px;
+  padding-left: 15px;
   background-color: #ffffff;
   color: $blue;
+  font-family: Gotham-Medium;
+  text-transform: uppercase;
+  @extend %placeholder;
 }
+
+.btnM {
+  padding: 0 36px;
+}
+
+// inputs
+
+.searchMain {
+  width: 50%;
+}
+
+

@@ -1,0 +1,27 @@
+/* Banner */
+
+
+.filters div {
+  position: relative;
+}
+
+i {
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  color: $light-grey;
+  @extend %centerY;
+}
+
+.filters button {
+  @extend %hover;
+}
+
+.owl-carousel .item p {
+  position: absolute;
+  top: 90px;
+  left: 250px;
+  color: $white;
+  font-size: $font-xl;
+  text-transform: uppercase;
+}

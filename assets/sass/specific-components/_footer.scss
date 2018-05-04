@@ -1,0 +1,21 @@
+/* Footer */
+
+footer {
+  .container {
+    padding: 90px 0 200px 0;
+  }
+
+  ul {
+    padding-right: 200px;
+  }
+
+  li {
+    padding-bottom: 25px;
+  }
+
+  a {
+    color: $primary-color;
+    @extend %hover;
+  }
+
+}

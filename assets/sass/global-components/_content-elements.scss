@@ -1,10 +1,10 @@
 /* Content element styles */
 
 body {
+  font-family: Gotham-Medium;
   font-size: $font-sm;
   color: $primary-color;
   background-color: #ffffff;
-  font-family: Gotham-Medium;
 }
 
 .clearAfter {
@@ -35,12 +35,22 @@ body {
   background-color: $light-grey;
 }
 
+.whiteBg {
+  background-color: #ffffff;
+}
+
 /* Colors */
 
 .colorBlue {
   color: $blue;
 }
 
+// Vertical center
+
+%centerY {
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 
 

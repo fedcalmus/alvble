@@ -1,0 +1,16 @@
+/* Grid */
+
+.grid {
+  padding-top: 150px;
+  padding-bottom: 235px;
+
+  .gridContent .item {
+    width: (100% / 4);
+    padding-right: 5px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+

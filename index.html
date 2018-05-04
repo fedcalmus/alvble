@@ -7,9 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alvble</title>
 
-    <!-- Jquery css -->
+    <!-- Favicon -->
 
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Jquery css -->
     <link rel="stylesheet" href="node_modules/@fengyuanchen/datepicker/dist/datepicker.css">
+
+    <!-- Owl css -->
+
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
 
     <!-- Main css -->
     <link rel="stylesheet" href="assets/style/main.css">
@@ -18,12 +27,12 @@
 <body>
 <!-- Header styles start here -->
 <header>
-    <div class="container clearAfter p-t-30 p-b-30 ">
+    <div class="container clearAfter p-t-30 p-b-30">
         <div class="headerLeft floatLeft">
-            <img src="assets/images/logo.png" alt="Logo">
+            <a href="#"><img src="assets/images/logo.png" alt="Logo"></a>
         </div>
         <div class="headerRight floatRight">
-            <nav class="p-r-50 p-l-50">
+            <nav class="p-t-50 p-b-50">
                 <ul class="uppercase">
                     <li class="inlineBlock p-r-30"><a href="#">Login</a></li>
                     <li class="inlineBlock"><a href="#">Signup</a></li>
@@ -33,20 +42,98 @@
     </div>
 </header>
 <!-- Header styles end here -->
-<section class="banner p-t-20 p-b-20 lightGreyBg">
-        <div class="filters">
-            <div class="container">
-            <input type="text" placeholder="Name,skill,keyword">
-            <input data-toggle="datepicker" class="colorBlue">
-            <input data-toggle="datepicker" class=" colorBlue">
-            <button class="uppercase btnM btnWhite">Find talent</button>
+<section class="banner">
+    <div class=" p-t-20 p-b-20 lightGreyBg">
+        <div class="container">
+            <div class="filters fontXs">
+                <input type="text" placeholder="Name, skill, keyword" class="btn searchMain uppercase m-r-5">
+                <div class="m-r-5 inlineBlock">
+                    <input data-toggle="datepicker" class="btn" placeholder="start">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="m-r-5 inlineBlock">
+                    <input data-toggle="datepicker" class="btn" placeholder="end">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <button class="btn btnM">Find talent</button>
+            </div>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="assets/images/banner-1.png" alt="Banner image">
+            <p>FIND, CONNECT, BOOK AND MANAGE <br />
+                FREELANCE CREATIVE TALENT</p>
+        </div>
+        <div class="item">
+            <img src="assets/images/banner-2.png" alt="Banner image">
+            <p>BOOK, CONNECT, FIND AND MANAGE <br />
+                FREELANCE CREATIVE TALENT</p>
         </div>
     </div>
 </section>
-
+<!--<section class="grid">
+    <div class="container">
+        <div class="gridContent flex flexWrap">
+            <div class="item">
+                <img src="assets/images/portfolio-1.png" alt="Portfolio image">
+            </div>
+            <div class="item">
+                <img src="assets/images/portfolio-2.png" alt="Portfolio image">
+            </div>
+            <div class="item">
+                <img src="assets/images/portfolio-3.png" alt="Portfolio image">
+            </div>
+            <div class="item">
+                <img src="assets/images/portfolio-4.png" alt="Portfolio image">
+            </div>
+            <div class="item">
+                <img src="assets/images/portfolio-5.png" alt="Portfolio image">
+            </div>
+            <div class="item">
+                <img src="assets/images/portfolio-6.png" alt="Portfolio image">
+            </div>
+            <div class="item">
+                <img src="assets/images/portfolio-7.png" alt="Portfolio image">
+            </div>
+            <div class="item">
+                <img src="assets/images/portfolio-8.png" alt="Portfolio image">
+            </div>
+        </div>
+    </div>
+</section>-->
+<footer class="whiteBg">
+    <div class="container">
+        <div class="flex flexRow flexStart">
+            <ul>
+                <li><a href="#"><img src="assets/images/logo-small.png" alt="Logo small"></a></li>
+                <li><a href="#">Why?</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+            <ul>
+                <li>Community</li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+            <ul>
+                <li>Connect</li>
+                <li><a href="#">Find Designers</a></li>
+                <li><a href="#">Jobs for Designers</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 <!-- Scripts start here -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/@fengyuanchen/datepicker/dist/datepicker.js"></script>
+<script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
 <script src="assets/js/main.js"></script>
 
 <!-- Scripts end here -->

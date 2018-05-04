@@ -3,13 +3,23 @@
 header {
   background-color: $primary-color;
 
-  nav ul li a {
-    font-family: "Gotham-Bold";
+  .headerLeft a {
+    max-height: 250px;
+    @extend %hover;
+    display: inline-block;
+  }
+
+  ul li {
+    &:first-child {
+      font-family: "Gotham-Bold";
+    }
+  }
+  
+  ul li a {
+    font-family: "Gotham-Medium";
     font-size: $font-md;
     color: #ffffff;
-    &:hover {
-      opacity: 0.8;
-    }
+    @extend %hover;
   }
 }
 

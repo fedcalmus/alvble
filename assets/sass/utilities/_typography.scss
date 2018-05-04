@@ -1,6 +1,22 @@
 /* Typography */
 
 
+// Font family
+
+.gothamMd {
+  font-family: Gotham-Medium;
+}
+
+// Font-sizes
+
+.fontXs {
+  font-size: $font-xs;
+}
+
+.fontLg {
+  font-size: $font-lg;
+}
+
 // Text transform
 
 .uppercase {
@@ -10,3 +26,4 @@
 .capitalize {
   text-transform: capitalize;
 }
+
