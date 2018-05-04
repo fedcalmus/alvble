@@ -9,12 +9,46 @@
     width: (100% / 4);
     padding-top: 5px;
     padding-right: 5px;
+    position: relative;
+      &:hover .onHover{
+        display: inherit;
+    }
   }
 
   img {
     max-height: 189px;
+    width: 100%;
   }
-  
+
+  .onHover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 5px;
+    background-color: rgba($primary-color, .8);
+    color: $white;
+    padding: 5px;
+    display: none;
+  }
+
+  .follow {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+    i {
+      padding-right: 5px;
+    }
+
+  }
+
+  a {
+    color: $white;
+    text-transform: uppercase;
+    @extend %hover;
+    font-size: $font-xs;
+  }
+
   ul {
     display: inherit;
   }
@@ -29,11 +63,11 @@
   span {
     font-size: $font-xxs;
     padding-left: 5px;
-
   }
 
-  img {
-    width: 100%;
+  p {
+    max-width: 200px;
+    padding: 5px 0;
   }
 
 }
