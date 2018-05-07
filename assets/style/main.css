@@ -2871,6 +2871,7 @@ readers do not read off random characters that represent icons */
   font-style: normal; }
 /* Settings */
 /* Mixins */
+/* Reset */
 body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
